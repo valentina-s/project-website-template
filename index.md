@@ -21,7 +21,7 @@ layout: default
  
 * Build your own webpage from a choice of templates:
   * Personal Website (with a blog)
-    * [https://github.com/valentina-s/project-website-template](https://github.com/valentina-s/project-website-template)   
+    * [https://github.com/valentina-s/personal-website-template](https://github.com/valentina-s/personal-website-template)   
   * Project Website (for collaborative projects)
     *[https://github.com/valentina-s/project-website-template](https://github.com/valentina-s/project-website-template)
   * Course Website (if you are teaching a class)
