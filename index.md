@@ -9,10 +9,5 @@ layout: default
 
 ## The Team
 
-**Project Lead/s:**
-
-**Data Science Lead:** 
-
-**DSSG Fellows:** 
 
 # Abstract or executive summary
