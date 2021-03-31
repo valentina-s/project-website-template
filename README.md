@@ -31,7 +31,7 @@ This is a template for a public [gh-pages](https://pages.github.com/) webpage fo
 	
 * You can modify your pages by setting up the sidebar:
 
-	* [https://github.com/uwescience/DSSG-website-template/blob/master/_includes/sidebar.html](https://github.com/valentina-s/project-website-template/blob/master/_includes/sidebar.html)
+	* [https://github.com/uwescience/project-website-template/blob/master/_includes/sidebar.html](https://github.com/valentina-s/project-website-template/blob/master/_includes/sidebar.html)
 
 
 * Images go into [assets/img](https://github.com/valentina-s/project-website-template/tree/master/assets/img)
