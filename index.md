@@ -11,11 +11,11 @@ layout: default
 ### eScience Institute, University of Washington
 
 # Plan for today
-* Go over what GitHub Pages are
+* Go over what [GitHub Pages](https://pages.github.com/) are
   * git & Github
-    * make sure you have made an account on [Github.com](Github.com)
+    * make sure you have made an account on [Github.com](Github.com) (don't need to install `git` today)
     * [Software Carpentry git-novice lesson] (http://swcarpentry.github.io/git-novice/)
-  * [Jekyll](https://jekyllrb.com/) 
+  * [Jekyll Templates](https://jekyllrb.com/) (don't need to install it today)
  
 * Build your own webpage from a choice of templates:
   * Personal Website (with a blog)
