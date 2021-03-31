@@ -46,7 +46,7 @@ layout: default
 		* [Markdown Tutorial](https://daringfireball.net/projects/markdown/syntax)
 	
 	* You can modify the markdown documents from the website (hit the edit button and commit when finished)
-    	* You can also clone the repo (or your fork of it) and make modifications locally
+    	* You can also make modifications to the text files locally and upload to the repo
 		* [Macdown Editor for Mac](https://macdown.uranusjr.com/)
 		* [MarkdownPad for Windows](http://markdownpad.com/news/2013/introducing-markdownpad-2/)
 		* [Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)
