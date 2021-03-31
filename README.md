@@ -1,40 +1,13 @@
-# DSSG Project Website Template
+# Project Website Template
 
-This is a template for a public [gh-pages](https://pages.github.com/) webpage for DSSG summer projects which can be freely hosted online.
+This is a template for a public [gh-pages](https://pages.github.com/) webpage for projects which can be freely hosted online.
 
-## Repo Creation
-For simplicity we suggest to create a separate repo for the webpage (separate from the code). We will also provide the option to set it up for the repo that you already have, but that will require more git work. If needed ownership and website name can be changed in the future, so pick something as a starting point. 
+## Repository Creation
 
-### Option 1 (new repo)
-* decide on a name for the repository: we suggest to follow the format `DSSG2020-name-of-repo` (it will determine the webpage url)
-* provide an eScience Data Scientist with the name and the usernames of all the team members
-* we will create a repo under the [uwescience organization](https://github.com/uwescience) for you and the final address will be [uwescience.github.io/DSSG2020-name-of-repo](uwescience.github.io/DSSG2020-name-of-repo) (we will use the [repo importer](https://help.github.com/en/articles/importing-a-repository-with-github-importer) and it may take a bit of time)
+* decide on a name for the repository (it will determine the webpage url, but you can change it later)
+* click on `Use this template` & enter your repo name & create repo
 * enable publishing through the master branch (Settings -> GitHub-Pages)
-
-### Option 2 (existing repo)
-
- * create a gh-pages branch (make it orphan so that it does not have any history)
- * remove all tracked files from it
- * pull the files from the template
- * push to github the changes to create a public gh-pages branch
- * enable publishing through the gh-pages branch (Settings -> GitHub-Pages)
- 
- ```
-    # make an orphan branch
-    git checkout --orphan gh-pages
-    
-    # preview files to be deleted
-    git rm -rf --dry-run .
-    
-    # actually delete the files
-    git rm -rf .
-    
-    # get the template
-    git pull https://github.com/uwescience/DSSG-website-template
-    
-    # push the local branch to a public branch on github
-    git push origin gh-pages 
- ```
+* add a link on the right for quick access to the webpage
 
 
 ## Configuring your website
@@ -50,6 +23,7 @@ For simplicity we suggest to create a separate repo for the webpage (separate fr
     	* You can also clone the repo (or your fork of it) and make modifications locally
 		* [Macdown Editor for Mac](https://macdown.uranusjr.com/)
 		* [MarkdownPad for Windows](http://markdownpad.com/news/2013/introducing-markdownpad-2/)
+		* [Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)
 		* [Atom editor](https://atom.io/) has a markdown extension
 		
 * If you want to preview the webpage locally you need to install [Jekyll](https://jekyllrb.com/docs/installation/)(it is a bit involved), then run
@@ -57,23 +31,22 @@ For simplicity we suggest to create a separate repo for the webpage (separate fr
 	
 * You can modify your pages by setting up the sidebar:
 
-	* [https://github.com/uwescience/DSSG-website-template/blob/master/_includes/sidebar.html](https://github.com/uwescience/DSSG-website-template/blob/master/_includes/sidebar.html)
+	* [https://github.com/uwescience/DSSG-website-template/blob/master/_includes/sidebar.html](https://github.com/valentina-s/project-website-template/blob/master/_includes/sidebar.html)
 
 
-* Images go into [assets/img](https://github.com/uwescience/DSSG-website-template/tree/master/assets/img)
+* Images go into [assets/img](https://github.com/valentina-s/project-website-template/tree/master/assets/img)
 	* they can be accessed by:
 			```
 			<img src="{{ site.url }}{{ site.baseurl }}/assets/img/eScience.png">
 			```
-	* to upload images through the website you need to have push access (otherwise do it locally and submit a pull request)
 	
 	* feel free to have a different header image relevant to your project
 
-* Some colors and fonts are set in the [`.css file`](https://github.com/uwescience/DSSG-website-template/blob/master/public/css/hyde.css)
+* Some colors and fonts are set in the [`.css file`](https://github.com/valentina-s/project-website-template/blob/master/public/css/hyde.css)
 	
 * The theme that we are using is called [Hyde](https://github.com/poole/hyde): you can read more details about it below. Feel free to use a different theme ([gh-pages themes](https://pages.github.com/themes/), [Jekyll themes](https://jekyllthemes.io/)), but you will have to figure out how to change it on your own. 
 
-* If you do not want to rush, make your writings visible on the website, you can work in a fork, or simply work on a markdown file which you can share with your teammates for review (check out [https://hackmd.io/](https://hackmd.io/) for collaborative markdown editing). 
+* If you do not want to rush, make your writings visible on the website, you can work in a fork, or simply work on a markdown file which you upload to GitHub.
 
 ---
 
