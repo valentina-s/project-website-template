@@ -5,10 +5,10 @@ layout: default
 <img src="{{ site.url }}{{ site.baseurl }}/assets/img/eScience.png">
 
 
-# Project Name
-Professional Websites with GitHub Pages
+# Professional Websites with GitHub Pages
 
-## Valentina Staneva, eScience Institute, University of Washington
+## Valentina Staneva
+### eScience Institute, University of Washington
 
 # Plan for today
 * Go over what GitHub Pages are
