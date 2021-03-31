@@ -51,3 +51,22 @@ layout: default
 		* [MarkdownPad for Windows](http://markdownpad.com/news/2013/introducing-markdownpad-2/)
 		* [Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)
 		* [Atom editor](https://atom.io/) has a markdown extension
+
+
+* Images go into [assets/img](https://github.com/valentina-s/project-website-template/tree/master/assets/img)
+	* they can be accessed by:
+			```
+			<img src="{{ site.url }}{{ site.baseurl }}/assets/img/eScience.png">
+			```
+	
+	* feel free to have a different header image relevant to your project
+
+* Blog posts (for the minima theme) go to the [_posts](https://github.com/valentina-s/personal-website-template/tree/master/_posts) folder
+  * add a date in the name so they get ordered
+
+* Modifying tabs:
+  * sidebar tabs (for project theme):
+  	* [https://github.com/uwescience/project-website-template/blob/master/_includes/sidebar.html](https://github.com/valentina-s/project-website-template/blob/master/_includes/sidebar.html) 	
+  * header tabs (for personal and course theme) 
+  	* in [`_config.yml`](https://github.com/valentina-s/personal-website-template/blob/master/_config.yml) list them under `header_pages` 		
+ 
