@@ -12,10 +12,10 @@ layout: default
 
 # Plan for today
 * Go over what GitHub Pages are
- * git & Github
+  * git & Github
     * make sure you have made an account on [Github.com](Github.com)
     * [Software Carpentry git-novice lesson] (http://swcarpentry.github.io/git-novice/)
- * [Jekyll](https://jekyllrb.com/) 
+  * [Jekyll](https://jekyllrb.com/) 
  
 * Build your own webpage from a choice of templates:
   * Personal Website (with a blog)
